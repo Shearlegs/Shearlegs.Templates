@@ -1,6 +1,6 @@
-### Build commands
-Pack to NuGet package
-`nuget pack .\Shearlegs.Templates.nuspec`
+## Shearlegs Templates
+Templates for Shearlegs framework 
 
-Install locally
-`dotnet new -i .\Shearlegs.Templates.1.0.0.nupkg`
+### Install
+To install Shearlegs.Template and be able to use them in the visual studio run the following command in command-line:  
+`dotnet new -i Shearlegs.Templates`
