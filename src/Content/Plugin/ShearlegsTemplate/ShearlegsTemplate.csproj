@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateNugetPackage>true</GenerateNugetPackage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Shearlegs.Core" Version="1.*" />
+  </ItemGroup>
+
+</Project>

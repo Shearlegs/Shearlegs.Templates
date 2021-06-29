@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShearlegsTemplate", "ShearlegsTemplate\ShearlegsTemplate.csproj", "{5C9060E4-A458-49A1-9B5E-AB68843F1458}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShearlegsTemplate.Test", "ShearlegsTemplate.Test\ShearlegsTemplate.Test.csproj", "{7E8F0DBC-B217-499E-9844-FF48FFA584DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C9060E4-A458-49A1-9B5E-AB68843F1458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9060E4-A458-49A1-9B5E-AB68843F1458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9060E4-A458-49A1-9B5E-AB68843F1458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9060E4-A458-49A1-9B5E-AB68843F1458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E8F0DBC-B217-499E-9844-FF48FFA584DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8F0DBC-B217-499E-9844-FF48FFA584DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E8F0DBC-B217-499E-9844-FF48FFA584DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E8F0DBC-B217-499E-9844-FF48FFA584DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26DD84F4-9C05-472F-A742-0292D3E023A4}
+	EndGlobalSection
+EndGlobal

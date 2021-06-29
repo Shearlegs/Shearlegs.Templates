@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Shearlegs.Templates</id>
+    <version>1.0.1</version>
+    <description>Templates for Shearlegs</description>
+	<projectUrl>https://github.com/Shearlegs</projectUrl>
+	<repository type="git" url="https://github.com/Shearlegs/Shearlegs.Templates.git" />
+    <authors>Shearlegs</authors>
+    <icon>icon.png</icon>
+	<license type="file">LICENSE</license>
+	<tags>Shearlegs Plugin Framework</tags>
+	<requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+  <files>
+	<file src="..\LICENSE" target="LICENSE" />
+	<file src="..\icon.png" target="icon.png" />
+    <file src="Content\**\*.*" exclude="Content\**\bin\**\*.*;Content\**\obj\**\*.*" target="Content" />
+  </files>  
+</package>
